@@ -22,13 +22,85 @@ html {
 
 body {
     font-family: 'Bai Jamjuree', sans-serif;
-    background-color: white;
 }
 
 .sidePadding {
-    padding: 0 8vw;
+    padding: 0 8.8vw;
+}
+
+h1 {
+    text-align: center;
+    font-size: 8vw;
+    color: var(--dark-grayish-blue);
+}
+
+p {
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 4vw;
+    color: var(--grayish-blue);
+}
+
+
+/* INDIVIDUAL SETTINGS */
+/* INDIVIDUAL SETTINGS */
+.bgImageWithLogo {
+    position: relative;
+}
+
+.bgImageWithLogo img:first-child {
+    width: 100%;
+}
+
+#companyLogoTop {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .aHistoryOfEverythingYouCopy {
-    background-color: lime;
+    margin-top: -16%;
+}
+
+.aHistoryOfEverythingYouCopy button:nth-child(3) {
+    display: block;
+    margin: 0 auto;
+    margin-top: 8vw;
+    background-color: var(--strong-cyan);
+    border: 0;
+    padding: 4vw 16vw;
+    border-radius: 100vmax;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: white;
+    font-size: 4vw;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.aHistoryOfEverythingYouCopy button:nth-child(4) {
+    display: block;
+    margin: 0 auto;
+    margin-top: 4vw;
+    background-color: var(--light-blue);
+    border: 0;
+    padding: 4vw 16vw;
+    border-radius: 100vmax;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: white;
+    font-size: 4vw;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+
+.keepTrackOfYourSnippets {
+    margin-top: 32vw;
+}
+
+.keepTrackOfYourSnippets img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 16vw;
 }
