@@ -68,7 +68,7 @@ p {
     margin-top: -16%;
 }
 
-.aHistoryOfEverythingYouCopy button:nth-child(3) {
+.aHistoryOfEverythingYouCopy button:nth-child(3), .clipboardForIosAndMacOs button:nth-child(3) {
     display: block;
     margin: 0 auto;
     margin-top: 8vw;
@@ -83,14 +83,14 @@ p {
     font-weight: 600;
 }
 
-.aHistoryOfEverythingYouCopy button:nth-child(4) {
+.aHistoryOfEverythingYouCopy button:nth-child(4), .clipboardForIosAndMacOs button:nth-child(4) {
     display: block;
     margin: 0 auto;
     margin-top: 4vw;
     background-color: var(--light-blue);
     border: 0;
     padding: 4vw 16vw;
-    border-radius: 100vmax;
+    border-radius: 100vmax;4
     font-family: 'Bai Jamjuree', sans-serif;
     color: white;
     font-size: 4vw;
@@ -109,3 +109,54 @@ p {
     margin-bottom: 8vw;
 }
 
+.superchargeYourWorkflow>h1 {
+    margin-top: 8vw;
+}
+
+.superchargeYourWorkflow img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 16vw;
+}
+
+.companyLogos img {
+    display: block;
+margin: 0 auto;
+margin-top: 16vw;
+}
+
+.companyLogos img:first-child {
+    margin-top: 40vw;
+}
+
+.clipboardForIosAndMacOs {
+    margin-top: 40vw;
+}
+
+/* FOOTER SETTINGS */
+footer {
+    background-color: #F5F6F8;
+    margin-top: 40vw;
+}
+
+footer>img {
+    display: block;
+    width: 16%;
+    margin: 0 auto;
+    padding-top: 16vw;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 8vw;
+    margin-top: 8vw;
+}
+
+.socialIcons {
+    padding: 16vw 12vw;
+    display: flex;
+    justify-content: space-evenly;
+}
