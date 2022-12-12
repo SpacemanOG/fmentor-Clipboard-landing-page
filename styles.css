@@ -34,6 +34,11 @@ h1 {
     color: var(--dark-grayish-blue);
 }
 
+h2 {
+    text-align: center;
+    margin-top: 8vw;
+}
+
 p {
     text-align: center;
     line-height: 1.5;
@@ -94,13 +99,13 @@ p {
 }
 
 
-.keepTrackOfYourSnippets {
+.keepTrackOfYourSnippets, .accessClipboardAnywhere {
     margin-top: 32vw;
 }
 
-.keepTrackOfYourSnippets img {
+.keepTrackOfYourSnippets>img, .accessClipboardAnywhere>img {
     width: 100%;
-    display: block;
-    margin: 0 auto;
     margin-top: 16vw;
+    margin-bottom: 8vw;
 }
+
