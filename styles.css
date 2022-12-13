@@ -47,17 +47,14 @@ p {
 }
 
 
-/* INDIVIDUAL SETTINGS */
-/* INDIVIDUAL SETTINGS */
+/* MOBILE FIRST DESIGN - INDIVIDUAL SETTINGS */
+/* MOBILE FIRST DESIGN - INDIVIDUAL SETTINGS */
 .bgImageWithLogo {
     position: relative;
 }
 
-.bgImageWithLogo img:first-child {
-    width: 100%;
-}
-
 #companyLogoTop {
+    width: 32%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -68,7 +65,7 @@ p {
     margin-top: -16%;
 }
 
-.aHistoryOfEverythingYouCopy button:nth-child(3), .clipboardForIosAndMacOs button:nth-child(3) {
+.btn button:first-child {
     display: block;
     margin: 0 auto;
     margin-top: 8vw;
@@ -83,14 +80,14 @@ p {
     font-weight: 600;
 }
 
-.aHistoryOfEverythingYouCopy button:nth-child(4), .clipboardForIosAndMacOs button:nth-child(4) {
+.btn button:nth-child(2) {
     display: block;
     margin: 0 auto;
     margin-top: 4vw;
     background-color: var(--light-blue);
     border: 0;
     padding: 4vw 16vw;
-    border-radius: 100vmax;4
+    border-radius: 100vmax;
     font-family: 'Bai Jamjuree', sans-serif;
     color: white;
     font-size: 4vw;
@@ -160,3 +157,57 @@ footer ul {
     display: flex;
     justify-content: space-evenly;
 }
+
+
+/* DESKTOP SETTINGS */
+/* DESKTOP SETTINGS */
+@media (min-width: 800px) {
+    .sidePadding {
+        padding: 0 24vw;
+    }
+
+    p {
+        font-size: 1.32vw;
+    }
+    
+    #companyLogoTop {
+        width: 8.8%;
+    }
+    
+    .aHistoryOfEverythingYouCopy {
+        margin-top: 0;
+    }
+    
+    .aHistoryOfEverythingYouCopy h1 {
+        font-size: 3.2vw;
+    }
+    
+    .aHistoryOfEverythingYouCopy p {
+        margin-top: 2vw;
+        font-size: 1.48vw
+    }
+    
+    .btn {
+        margin-top: 4vw;
+        display: flex;
+        justify-content: space-around;
+        padding: 0 8vw;
+    }
+
+    .btn button:first-child, .btn button:nth-child(2) {
+        margin: 0;
+        padding: 0;
+        width: 260px;
+        height: 64px;
+        font-size: 1.2vw;
+    }
+
+    .keepTrackOfYourSnippets {
+        margin-top: 8vw;
+    }
+
+    .keepTrackOfYourSnippets h1 {
+        font-size: 2.8vw;
+    }
+}
+
