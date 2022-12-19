@@ -168,6 +168,18 @@ footer ul {
 
     p {
         font-size: 1.32vw;
+        margin-top: 1.6vw;
+    }
+
+    h2 {
+        font-size: 2.6vw;
+        color: var(--dark-grayish-blue);
+    }
+    
+    h3 {
+        margin-top: 4vw;
+        font-size: 1.96vw;
+        color: var(--dark-grayish-blue);
     }
     
     #companyLogoTop {
@@ -192,22 +204,44 @@ footer ul {
         display: flex;
         justify-content: space-around;
         padding: 0 8vw;
+        column-gap: 1vw;
     }
 
     .btn button:first-child, .btn button:nth-child(2) {
         margin: 0;
         padding: 0;
-        width: 260px;
+        width: 240px;
         height: 64px;
         font-size: 1.2vw;
     }
 
     .keepTrackOfYourSnippets {
         margin-top: 8vw;
+        position: relative;
     }
 
     .keepTrackOfYourSnippets h1 {
         font-size: 2.8vw;
+    }
+
+    .functionality {
+        margin-top: 5.6vw;
+        display: flex;
+        column-gap: 8vw;
+    }
+
+    .functionalityImage img {
+        margin-left: -2vw;
+    }
+
+    .functionalityList>* {
+        text-align: left;
+        padding-right: 16vw;
+    }
+
+    .functionalityList p {
+        font-size: 1.2vw;
+        margin-top: .8vw;
     }
 }
 
