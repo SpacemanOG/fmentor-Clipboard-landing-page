@@ -222,6 +222,7 @@ footer ul {
 
     .btn button {
         cursor: pointer;
+        appearance: none;
     }
 
     .keepTrackOfYourSnippets {
