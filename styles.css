@@ -37,6 +37,11 @@ h1 {
 h2 {
     text-align: center;
     margin-top: 8vw;
+    color: var(--dark-grayish-blue);
+}
+
+h3 {
+    color: var(--dark-grayish-blue);
 }
 
 p {
@@ -49,25 +54,6 @@ p {
 .btn button {
     cursor: pointer;
     appearance: none;
-}
-
-
-/* MOBILE FIRST DESIGN - INDIVIDUAL SETTINGS */
-/* MOBILE FIRST DESIGN - INDIVIDUAL SETTINGS */
-.bgImageWithLogo {
-    position: relative;
-}
-
-#companyLogoTop {
-    width: 32%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.aHistoryOfEverythingYouCopy {
-    margin-top: -16%;
 }
 
 .btn button:first-child {
@@ -101,14 +87,42 @@ p {
 }
 
 
+/* MOBILE FIRST DESIGN - INDIVIDUAL SETTINGS */
+/* MOBILE FIRST DESIGN - INDIVIDUAL SETTINGS */
+.bgImageWithLogo {
+    position: relative;
+}
+
+#companyLogoTop {
+    width: 32%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.aHistoryOfEverythingYouCopy {
+    margin-top: -16%;
+}
+
 .keepTrackOfYourSnippets, .accessClipboardAnywhere {
     margin-top: 32vw;
 }
 
-.keepTrackOfYourSnippets>img, .accessClipboardAnywhere>img {
+.featuresImage>img, .accessClipboardAnywhere>img {
     width: 100%;
     margin-top: 16vw;
     margin-bottom: 8vw;
+    padding: 0 8.8vw;
+}
+
+.featuresList>* {
+    text-align: center;
+    padding: 0 8.8vw;
+}
+
+.featuresList>h3 {
+    margin-top: 8vw;
 }
 
 .superchargeYourWorkflow>h1 {
@@ -119,6 +133,15 @@ p {
     display: block;
     margin: 0 auto;
     margin-top: 16vw;
+}
+
+.createBlacklists, .plainTextSnippet, .sneakPreview {
+    text-align: center;
+    padding: 0 8.8vw;
+}
+
+.createBlacklists h3, .plainTextSnippet h3, .sneakPreview h3 {
+    margin-top: 4vw;
 }
 
 .companyLogos img {
@@ -133,6 +156,7 @@ p {
 
 .clipboardForIosAndMacOs {
     margin-top: 40vw;
+    padding: 0 12vw;
 }
 
 /* FOOTER SETTINGS */
@@ -141,7 +165,7 @@ footer {
     margin-top: 40vw;
 }
 
-footer>img {
+.footerCompLogo>img {
     display: block;
     width: 16%;
     margin: 0 auto;
@@ -155,6 +179,7 @@ footer ul {
     align-items: center;
     row-gap: 8vw;
     margin-top: 8vw;
+    color: var(--dark-grayish-blue);
 }
 
 .socialIcons {
@@ -221,7 +246,7 @@ footer ul {
         margin: 0;
         padding: 0;
         width: 480px;
-        height: 104px;
+        height: 56px;
         font-size: 1.24vw;
     }    
 
@@ -239,7 +264,13 @@ footer ul {
         width: 50%;
     }
 
+    .featuresList h3 {
+        margin-top: 4vw;
+    }
+
     .featuresImage img {
+        padding: 0;
+        margin: 0;
         width: 108%;
         margin-left: -4vw;
     }
@@ -260,11 +291,19 @@ footer ul {
     }
     
     .accessClipboardAnywhere img {
-        width: 64%;
+        width: 80%;
         display: block;
         margin: 0 auto;
         margin-top: 8vw;
     }    
+
+    .superchargeYourWorkflow  h2 {
+        margin-top: 4vw;
+    }
+
+    .createBlacklists, .plainTextSnippet, .sneakPreview {
+        padding: 0;
+    }
 
     .functionalities {
         width: 96%;
@@ -296,7 +335,7 @@ footer ul {
     .companyLogos {
         width: 96%;
         margin: 0 auto;
-        margin-top: 16vw;
+        margin-top: 12vw;
         display: flex;
         justify-content: space-evenly;
     }
@@ -312,7 +351,7 @@ footer ul {
     }
 
     .clipboardForIosAndMacOs {
-        margin-top: 8vw;
+        margin-top: 12vw;
     }
 
     footer, footer * {
@@ -325,11 +364,17 @@ footer ul {
         margin-top: 8vw;
         display: flex;
         justify-content: space-around;
-        padding: 4vw 0;
+        padding: 2vw 0;
     }
 
     footer img {
         object-fit: contain;
+    }
+
+    .footerCompLogo img {
+        width: 48%;
+        padding: 0;
+        margin: 0;
     }
 
     .footerLinks ul {
@@ -342,8 +387,8 @@ footer ul {
         "contact press press";
         row-gap: 2vw;
         margin-top: 0;
-        color: var(--grayish-blue);
-        font-size: 1.48vw
+        color: var(--dark-grayish-blue);
+        font-size: 1.32vw
     }
 
     .footerLinks ul li:first-child {
