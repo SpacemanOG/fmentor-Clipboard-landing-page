@@ -93,6 +93,10 @@ p {
     position: relative;
 }
 
+.backgroundImage>* {
+    width: 100%;
+}
+
 #companyLogoTop {
     width: 32%;
     position: absolute;
