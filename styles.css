@@ -220,6 +220,10 @@ footer ul {
         font-size: 1.24vw;
     }
 
+    .btn button {
+        cursor: pointer;
+    }
+
     .keepTrackOfYourSnippets {
         margin-top: 8vw;
         position: relative;
@@ -304,6 +308,75 @@ footer ul {
 
     .companyLogos img:first-child {
         margin-top: 0;
+    }
+
+    .clipboardForIosAndMacOs {
+        margin-top: 8vw;
+    }
+
+    footer, footer * {
+        margin: 0;
+        padding: 0;
+        /* border: 1px solid crimson; */
+    }
+    
+    footer {
+        margin-top: 8vw;
+        display: flex;
+        justify-content: space-around;
+        padding: 4vw 0;
+    }
+
+    footer img {
+        object-fit: contain;
+    }
+
+    .footerLinks ul {
+        width: 48vw;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "faq privacy install"
+        "contact press press";
+        row-gap: 2vw;
+        margin-top: 0;
+        color: var(--grayish-blue);
+        font-size: 1.48vw
+    }
+
+    .footerLinks ul li:first-child {
+        grid-area: faq;
+    }
+
+    .footerLinks ul li:nth-child(2) {
+        grid-area: contact;
+    }
+
+    .footerLinks ul li:nth-child(3) {
+        grid-area: privacy;
+    }
+
+    .footerLinks ul li:nth-child(4) {
+        grid-area: press;
+    }
+
+    .footerLinks ul li:nth-child(5) {
+        grid-area: install;
+    }
+
+    .footerLinks ul li:hover {
+        color: var(--strong-cyan);
+        cursor: pointer;                
+    }
+
+    .socialIcons {
+        padding: 0;
+        width: 16vw;
+    }
+
+    .socialIcons>img {
+        width: 12%;
     }
 }
 
