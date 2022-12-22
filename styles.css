@@ -225,14 +225,6 @@ footer ul {
         position: relative;
     }
 
-    .keepTrackOfYourSnippets h1 {
-        font-size: 2.8vw;
-    }
-
-    /* .functionality>* {
-        border: 1px solid crimson;
-    } */
-
     .functionality {
         margin-top: 5.6vw;
         display: flex;
@@ -256,6 +248,17 @@ footer ul {
     .functionalityList p {
         font-size: 1.2vw;
         margin-top: .8vw;
+    }
+
+    .accessClipboardAnywhere {
+        margin-top: 8vw;
+    }
+    
+    .accessClipboardAnywhere img {
+        width: 64%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 8vw;
     }
 }
 
