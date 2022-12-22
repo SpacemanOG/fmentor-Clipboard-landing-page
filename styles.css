@@ -46,6 +46,11 @@ p {
     color: var(--grayish-blue);
 }
 
+.btn button {
+    cursor: pointer;
+    appearance: none;
+}
+
 
 /* MOBILE FIRST DESIGN - INDIVIDUAL SETTINGS */
 /* MOBILE FIRST DESIGN - INDIVIDUAL SETTINGS */
@@ -218,12 +223,7 @@ footer ul {
         width: 480px;
         height: 104px;
         font-size: 1.24vw;
-    }
-
-    .btn button {
-        cursor: pointer;
-        appearance: none;
-    }
+    }    
 
     .keepTrackOfYourSnippets {
         margin-top: 8vw;
