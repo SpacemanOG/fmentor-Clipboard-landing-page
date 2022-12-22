@@ -118,8 +118,8 @@ p {
 
 .companyLogos img {
     display: block;
-margin: 0 auto;
-margin-top: 16vw;
+    margin: 0 auto;
+    margin-top: 16vw;
 }
 
 .companyLogos img:first-child {
@@ -286,6 +286,24 @@ footer ul {
 
     .createBlacklists, .plainTextSnippet, .sneakPreview {
         width: calc(100%/3);
+    }
+
+    .companyLogos {
+        width: 96%;
+        margin: 0 auto;
+        margin-top: 8vw;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .companyLogos>img {
+        width: 12%;
+        margin: 0;
+        object-fit: contain;
+    }
+
+    .companyLogos img:first-child {
+        margin-top: 0;
     }
 }
 
