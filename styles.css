@@ -181,13 +181,17 @@ footer ul {
         font-size: 1.96vw;
         color: var(--dark-grayish-blue);
     }
+
+    .backgroundImage>* {
+        width: 100%;
+    }
     
     #companyLogoTop {
         width: 8.8%;
     }
     
     .aHistoryOfEverythingYouCopy {
-        margin-top: 0;
+        margin-top: -4vw;
     }
     
     .aHistoryOfEverythingYouCopy h1 {
@@ -199,20 +203,21 @@ footer ul {
         font-size: 1.48vw
     }
     
-    .btn {
+    .btn {        
+        width: 68%;
+        margin: 0 auto;
         margin-top: 4vw;
         display: flex;
         justify-content: space-around;
-        padding: 0 8vw;
         column-gap: 1vw;
     }
 
     .btn button:first-child, .btn button:nth-child(2) {
         margin: 0;
         padding: 0;
-        width: 240px;
-        height: 64px;
-        font-size: 1.2vw;
+        width: 480px;
+        height: 104px;
+        font-size: 1.24vw;
     }
 
     .keepTrackOfYourSnippets {
@@ -224,19 +229,28 @@ footer ul {
         font-size: 2.8vw;
     }
 
+    /* .functionality>* {
+        border: 1px solid crimson;
+    } */
+
     .functionality {
         margin-top: 5.6vw;
         display: flex;
-        column-gap: 8vw;
+    }
+
+    .functionalityImage, .functionalityList {
+        width: 50%;
     }
 
     .functionalityImage img {
-        margin-left: -2vw;
+        width: 108%;
+        margin-left: -4vw;
     }
 
     .functionalityList>* {
         text-align: left;
         padding-right: 16vw;
+        padding-left: 8vw;
     }
 
     .functionalityList p {
