@@ -225,27 +225,27 @@ footer ul {
         position: relative;
     }
 
-    .functionality {
+    .features {
         margin-top: 5.6vw;
         display: flex;
     }
 
-    .functionalityImage, .functionalityList {
+    .featuresImage, .featuresList {
         width: 50%;
     }
 
-    .functionalityImage img {
+    .featuresImage img {
         width: 108%;
         margin-left: -4vw;
     }
 
-    .functionalityList>* {
+    .featuresList>* {
         text-align: left;
         padding-right: 16vw;
         padding-left: 8vw;
     }
 
-    .functionalityList p {
+    .featuresList p {
         font-size: 1.2vw;
         margin-top: .8vw;
     }
@@ -259,6 +259,33 @@ footer ul {
         display: block;
         margin: 0 auto;
         margin-top: 8vw;
+    }    
+
+    .functionalities {
+        width: 96%;
+        margin: 0 auto;
+        display: flex;
+        column-gap: 2vw;
+        margin-top: 4vw;
+    }
+
+    .functionalities>* {
+        text-align: center;
+    }
+
+    .functionalities img {
+        height: 20%;
+        margin: 0;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .functionalities p {
+        font-size: 1.2vw;
+    }
+
+    .createBlacklists, .plainTextSnippet, .sneakPreview {
+        width: calc(100%/3);
     }
 }
 
